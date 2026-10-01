@@ -4,6 +4,8 @@ Cancer type classification from gene expression data using R, tidymodels and Ran
 
 This project explores the classification of five cancer types from RNA-Seq gene expression data. It was developed in two versions, with the second version improving the evaluation and organization of the first one.
 
+(Just a heads-up: I'm a complete beginner. This is my first attempt!)
+
 > This is an academic project for learning data analysis and machine learning. It is not intended for medical diagnosis.
 
 ## Dataset
