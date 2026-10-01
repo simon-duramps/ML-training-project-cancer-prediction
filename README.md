@@ -32,6 +32,8 @@ The first version implements a complete Random Forest classification pipeline:
 
 The model can also return the predicted cancer type and the probability for each class.
 
+![The prediction version 1](resultat_model.png)
+
 ### Limitations
 
 The model was evaluated using a single train/test split. Results were not automatically saved, and the script initially relied on absolute file paths.
@@ -46,15 +48,17 @@ The second version keeps the same classification pipeline but adds:
 - Automatic saving of cross-validation results
 - Automatic saving of generated plots
 
-### Cancer type distribution
-
-![Cancer type distribution](distribution_cancers.png)
+![The prediction version 2](resultat_ameliorate_model.png)
 
 ### Limitations
 
 The second version still uses absolute file paths and requires the new patient data to have the expected gene structure.
 
 A future version could make the project more reproducible by using relative paths and add automatic input validation and a simple interface for new patient predictions.
+
+### Cancer type distribution
+
+![Cancer type distribution](distribution_cancers.png)
 
 ## Result
 In first version, we find 89 % of chance for random patient to have prad and in second, we have 91 % of chance for prad. Result is coherent and with a certitude of approxymatelis 99 of certitude.
