@@ -15,7 +15,7 @@ This project explores the classification of five cancer types from RNA-Seq gene 
 
 ## Source data
 
-Kaggle (Salmanthecodepro)[https://www.kaggle.com/datasets/salmanthecodepro/gene-expression-cancer-rna-seq-levels] 
+Kaggle [Salmanthecodepro](https://www.kaggle.com/datasets/salmanthecodepro/gene-expression-cancer-rna-seq-levels)
 License MIT
 
 ## Version 1
