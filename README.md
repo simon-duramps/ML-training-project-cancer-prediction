@@ -48,7 +48,7 @@ The second version keeps the same classification pipeline but adds:
 
 ### Cancer type distribution
 
-![Cancer type distribution](results/distribution_cancers.png)
+[Cancer type distribution](distribution_cancers.png)
 
 ### Limitations
 
