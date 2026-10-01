@@ -62,7 +62,7 @@ The model also seems to be performing too well; I suspect a risk of overfitting 
 
 ## Results
 
-In the first version, we find an 89% chance for a random patient to have PRAD, and in the second version, a 91% chance for PRAD. The result is coherent, with a certainty of approximately 99%.
+In the first version, we find an 89% chance for a random patient to have PRAD, and in the second version, a 92% chance for PRAD. The result is coherent, with a certainty of approximately 99%.
 
 ## How to use
 
