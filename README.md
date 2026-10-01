@@ -37,13 +37,13 @@ The model can also return the predicted cancer type and the probability for each
 ### Limitations
 
 The model was evaluated using a single train/test split. Results were not automatically saved, and the script initially relied on absolute file paths.
-Furthermore, I found a certainty value of 1 (which was highly suspicious) so it was almost certain that my model was flawed.
+Furthermore, I found an accuracy of 1 in version 1 (which was highly suspicious), so I suspected the model was flawed. This is why I developed version 2 with cross-validation.
 
 ## Version 2 — Improved
 
 The second version keeps the same classification pipeline but adds:
 
-- **5-fold cross-validation** (5 egal parts of initial 75%)
+- **5-fold cross-validation** (5 equal parts of the initial 75%)
 - Accuracy and ROC-AUC evaluation
 - Automatic saving of cross-validation results
 - Automatic saving of generated plots
@@ -54,14 +54,15 @@ The second version keeps the same classification pipeline but adds:
 
 The second version still uses absolute file paths and requires the new patient data to have the expected gene structure. A future version could make the project more reproducible by using relative paths and add automatic input validation and a simple interface for new patient predictions.
 
-The model also seems to me to be performing too well; I suspect a risk of overfitting that could potentially have skewed the results.
+The model also seems to be performing too well; I suspect a risk of overfitting that could have skewed the results.
 
 ### Cancer type distribution
 
 ![Cancer type distribution](distribution_cancers.png)
 
-## Result
-In first version, we find 89 % of chance for random patient to have prad and in second, we have 91 % of chance for prad. Result is coherent and with a certitude of approxymatelis 99 of certitude.
+## Results
+
+In the first version, we find an 89% chance for a random patient to have PRAD, and in the second version, a 91% chance for PRAD. The result is coherent, with a certainty of approximately 99%.
 
 ## How to use
 
@@ -79,7 +80,7 @@ library(ranger)
 
 ## Purpose
 
-This project was developed as coursework to pratice R programming, data analysis and above all machine learning on high-dimensional biological data.
+This project was developed as coursework to practice R programming, data analysis and, above all, machine learning on high-dimensional biological data.
 
 The two versions show the progression from a first working classification model to an improved version with cross-validation and automated result saving.
 
