@@ -52,9 +52,9 @@ The second version keeps the same classification pipeline but adds:
 
 ### Limitations
 
-The second version still uses absolute file paths and requires the new patient data to have the expected gene structure.
+The second version still uses absolute file paths and requires the new patient data to have the expected gene structure. A future version could make the project more reproducible by using relative paths and add automatic input validation and a simple interface for new patient predictions.
 
-A future version could make the project more reproducible by using relative paths and add automatic input validation and a simple interface for new patient predictions.
+The model also seems to me to be performing too well; I suspect a risk of overfitting that could potentially have skewed the results.
 
 ### Cancer type distribution
 
@@ -87,6 +87,3 @@ The two versions show the progression from a first working classification model 
 
 **Simon Duramps**
 L1 Life Sciences – Université de Pau et des Pays de l'Adour (UPPA)
-
-```
-```
